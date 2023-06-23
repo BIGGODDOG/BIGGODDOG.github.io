@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.frame {
+    width: 360px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(161, 156, 156);
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(167, 167, 167), -1em 0 .4em rgb(197, 197, 197);
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.banner {
+    /* padding-top: 50px; */
+    width: 194px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+input {
+    width: 312px;
+    height: 48px;
+
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #808080;
+    padding: 20px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.mail {
+    margin-top: 43px;
+}
+
+.pass {
+    margin-top: 28px;
+
+    background-image: url(img/eye_password.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 7%;
+    padding-right: 45px;
+}
+
+a {
+    color: #2F89FC;
+    text-decoration: none;
+}
+
+.forgot {
+    padding-top: 12px;
+    width: 125px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2F89FC;
+}
+
+.login {
+    margin-top: 20px;
+    background: #0E64D2;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+    width: 312px;
+    height: 48px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    outline: none;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    scale: 1.03;
+}
+
+.signup {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sign--link {
+    padding-left: 11px;
+}
+
+.line {
+    width: 139px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.or {
+    width: 320px;
+    padding-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facebook {
+    margin-top: 23px;
+    background: #1877F2;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.9);
+
+    background-image: url(img/facebook\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 7%;
+}
+
+.google {
+    margin-top: 23px;
+    color: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+    background-image: url(img/google\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 7%;
+}
+
+.back__to__page{
+    width: auto;
+    height: 30px;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.back__to__page:hover{
+    scale: none;
+    box-shadow: none;
+}
+
+.back__icon{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meal_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Meal</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__left">
+            <div class="header__logo"></div>
+
+            <form action="">
+                <input type="text" class="search" placeholder="Search product or any order...">
+                <button class="search__button"><img src="img/search.png" alt=""></button>
+            </form>
+        </div>
+
+        <div class="header__right">
+            <div class="date">
+                <p id="clock"></p>
+                <p id="date"></p>
+            </div>
+            <!-- <a href="login.html" class="cabinet">
+                <img src="img/cabinet.png" alt="" class="cabinet__img">
+                <p class="cabinet__word">Enter</p>
+            </a> -->
+            <button class="cabinet">
+                <img src="img/cabinet.png" alt="" class="cabinet__img">
+                <p class="cabinet__word">Enter</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="menu__bar"> <!-- Боковое меню -->
+
+    </div>
+
+    <div class="food__grid"> <!-- Основная сетка меню -->
+        <!-- <div class="grid__item"></div> -->
+    </div>
+
+    <div class="cart">
+        <p class="cart__title p0">Order list</p>
+
+        <div class="cart__items"> <!-- Пример -->
+            <!-- <div class="cart__item"> 
+                <div class="cart__item__img"></div>
+                <div class="cart__item__name">BEEF AND MUSTARD PIE</div>
+                <div class="cart__item__quantity">
+                    <button class="cart__item__quantity__plus">+</button>
+                    <div class="cart__item__quantity__value">1</div>
+                    <button class="cart__item__quantity__minus">-</button>
+                </div>
+                <div class="cart__item__price">5.50$</div>
+            </div> -->
+        </div>
+
+        <div class="card__payment">
+            <div class="card__payment__subtotal">
+                <p class="payment__subtotal p0">Subtotal</p>
+                <p class="payment__subtotal__value p0">0.00$</p>
+            </div>
+            <div class="card__payment__discount">
+                <p class="payment__discount p0">Discount</p>
+                <p class="payment__discount__value p0">1%</p>
+            </div>
+
+            <div class="card__payment__total">
+                <p class="payment__total p0">Total</p>
+                <p class="payment__total__value p0">0.00$</p>
+            </div>
+
+            <div class="card__payment__buttons">
+                <button class="cancel__order">cancel order</button>
+                <button class="send__order">send order</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__content">
+            <p><b>Are you sure you want to log out of your account?</b></p>
+            <div class="row">
+                <button class="modal__cancel">Cancel</button>
+                <button class="modal__logout">Log out</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="meal_script.js"></script>
+</body>
+
+</html>
